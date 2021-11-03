@@ -4,7 +4,7 @@
 - Abstract Factory 🚫
 - Builder 🚫
 - Prototype 🚫
-- Singleton 🚫
+- Singleton ✅
 
 # Structural
 - Adapter 🚫
