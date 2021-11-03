@@ -1,7 +1,7 @@
 #ifndef DESIGN_PATERNS_CONCTRETEOBSERVER_H
 #define DESIGN_PATERNS_CONCTRETEOBSERVER_H
 
-class concreteObsercer : public Observer
+class concreteObserver : public Observer
 {
 public:
 	int currentImportantVal{};

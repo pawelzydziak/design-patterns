@@ -5,10 +5,10 @@
 int main()
 {
 	auto *pub = new concretePublisher;
-	auto *ob1 = new concreteObsercer;
-	auto *ob2 = new concreteObsercer;
-	auto *ob3 = new concreteObsercer;
-	auto *ob4 = new concreteObsercer;
+	auto *ob1 = new concreteObserver;
+	auto *ob2 = new concreteObserver;
+	auto *ob3 = new concreteObserver;
+	auto *ob4 = new concreteObserver;
 
 	pub->registerObserver(ob1);
 	pub->registerObserver(ob2);
