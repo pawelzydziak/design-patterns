@@ -1,11 +1,10 @@
 #ifndef DESIGN_PATTERNS_ALGO_H
 #define DESIGN_PATTERNS_ALGO_H
 
-
-class Algo
+class Algorithm
 {
 public:
-	virtual int doStaf() = 0;
+	virtual int doStaff() = 0;
 };
 
 

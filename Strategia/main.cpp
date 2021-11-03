@@ -1,23 +1,21 @@
 #include <iostream>
-#include "Sub.h"
+#include "SubClass.h"
 #include "concreteAlgo2.h"
 
 int main()
 {
-	Glowna s{};
-	s.setAlgo(new concreteAlgo);
-	int a = s.doAlgo();
-	std::cout<< a << std::endl;
+	SuperClass superClassInstance{};
+	superClassInstance.setAlgo(new concreteAlgo);
+	std::cout << superClassInstance.doAlgo() << std::endl;
 
-	s.setAlgo(new concreteAlgo2);
-	int b = s.doAlgo();
-	std::cout<< b << std::endl;
+	superClassInstance.setAlgo(new concreteAlgo2);
+	std::cout << superClassInstance.doAlgo() << std::endl;
 
-	Sub g{};
-	g.setAlgo(new concreteAlgo);
-	g.g = g.doAlgo();
+	SubClass subClassInstance{};
+	subClassInstance.setAlgo(new concreteAlgo);
+	subClassInstance.innerValue = subClassInstance.doAlgo();
 
-	std::cout << g.g;
+	std::cout << subClassInstance.innerValue;
 
 	return 0;
 }

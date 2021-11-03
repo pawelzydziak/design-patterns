@@ -1,11 +1,12 @@
 #ifndef DESIGN_PATTERNS_SUB_H
 #define DESIGN_PATTERNS_SUB_H
-#include "Glowna.h"
 
-class Sub : public Glowna
+#include "SuperClass.h"
+
+class SubClass : public SuperClass
 {
 public:
-	int g;
+	int innerValue;
 };
 
 

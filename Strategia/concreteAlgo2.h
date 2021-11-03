@@ -1,19 +1,16 @@
-//
-// Created by darlo on 03/11/2021.
-//
+#ifndef DESIGN_PATTERNS_CONCRETEALGO2_H
+#define DESIGN_PATTERNS_CONCRETEALGO2_H
 
-#ifndef KATA_DRAFTS_CONCRETEALGO2_H
-#define KATA_DRAFTS_CONCRETEALGO2_H
-#include "Algo.h"
+#include "Algorithm.h"
 
-class concreteAlgo2 : public Algo
+class concreteAlgo2 : public Algorithm
 {
 public:
-	int doStaf()
+	int doStaff() override
 	{
 		return 11;
 	}
 };
 
 
-#endif //KATA_DRAFTS_CONCRETEALGO2_H
+#endif //DESIGN_PATTERNS_CONCRETEALGO2_H
