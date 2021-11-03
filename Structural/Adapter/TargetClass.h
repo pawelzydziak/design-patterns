@@ -1,5 +1,6 @@
 #ifndef DESIGN_PATERNS_TARGETCLASS_H
 #define DESIGN_PATERNS_TARGETCLASS_H
+
 #include <sstream>
 
 class TargetClass

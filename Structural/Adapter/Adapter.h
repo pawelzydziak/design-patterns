@@ -3,12 +3,14 @@
 
 #include "TargetClass.h"
 #include "Adaptee.h"
+
 class Adapter : public TargetClass
 {
 private:
 	Adaptee *adaptee;
 public:
-	explicit Adapter(Adaptee *adaptee1) : adaptee(adaptee1){};
+	explicit Adapter(Adaptee *adaptee1) : adaptee(adaptee1)
+	{};
 
 	std::string request(int a) override
 	{
