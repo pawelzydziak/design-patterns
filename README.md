@@ -1,13 +1,13 @@
 ## TODO:
-# Creational
+### Creational
 - Factory Method 🚫
 - Abstract Factory 🚫
 - Builder 🚫
 - Prototype 🚫
 - Singleton ✅
 
-# Structural
-- Adapter 🚫
+### Structural
+- Adapter ✅
 - Bridge 🚫
 - Composite 🚫
 - Decorator 🚫
@@ -15,7 +15,7 @@
 - Flyweight 🚫
 - Proxy 🚫
 
-# Behavioral 
+### Behavioral 
 - Chain of responsibility 🚫
 - Command 🚫
 - Iterator 🚫
