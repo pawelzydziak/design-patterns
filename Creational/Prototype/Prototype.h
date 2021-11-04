@@ -6,6 +6,7 @@ class Prototype
 {
 public:
 	virtual Prototype *clone() = 0;
+
 	virtual int getValue() = 0;
 };
 

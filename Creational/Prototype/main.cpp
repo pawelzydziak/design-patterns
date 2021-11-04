@@ -1,6 +1,6 @@
 #include <iostream>
 #include "concretePrototype.h"
-#include "SubPrototype.h"
+
 int main()
 {
 	concretePrototype cP(2137);

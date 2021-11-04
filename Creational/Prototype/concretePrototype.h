@@ -1,5 +1,6 @@
 #ifndef DESIGN_PATERNS_CONCRETEPROTOTYPE_H
 #define DESIGN_PATERNS_CONCRETEPROTOTYPE_H
+
 #include "Prototype.h"
 
 class concretePrototype : Prototype
@@ -7,7 +8,8 @@ class concretePrototype : Prototype
 private:
 	int importantValue;
 public:
-	explicit concretePrototype(int i) : importantValue(i){};
+	explicit concretePrototype(int i) : importantValue(i)
+	{};
 
 	Prototype *clone() override
 	{

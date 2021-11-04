@@ -11,7 +11,7 @@
 - Bridge ✅
 - Composite 🚫
 - Decorator 🚫
-- Facade 🚫
+- Facade ✅
 - Flyweight 🚫
 - Proxy 🚫
 
