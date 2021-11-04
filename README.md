@@ -1,6 +1,6 @@
 ## TODO:
 ### Creational
-- Factory Method 🚫
+- Factory Method ✅
 - Abstract Factory 🚫
 - Builder ✅
 - Prototype 🚫
@@ -8,7 +8,7 @@
 
 ### Structural
 - Adapter ✅
-- Bridge 🚫
+- Bridge ✅
 - Composite 🚫
 - Decorator 🚫
 - Facade 🚫
